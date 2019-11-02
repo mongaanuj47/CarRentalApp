@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Car Rental</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="view_customers">View Customers</string>
+    <string name="view_vehicles">View Vehicles</string>
+
+    <string name="firstname">Enter your firstname</string>
+    <string name="lastname">Enter your lastname</string>
+    <string name="enter_username">Enter your username</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="enter_role">Enter your Role</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_update">Update</string>
+    <string name="enter_color">Enter Car Color</string>
+    <string name="enter_year">Enter Car Year</string>
+    <string name="enter_model">Enter Car Model</string>
+    <string name="enter_brand">Enter Car Brand</string>
+    <string name="enter_type">Enter Car Type</string>
+    <string name="enter_license_plate">Enter License Plate Number</string>
+    <string name="create_customer">Create Customer</string>
+    <string name="no_customer_exist">No Customer Exist</string>
+    <string name="employee_logout">Logout</string>
+    <string name="no_vehicles_exist">No Vehicles Exist</string>
+    <string name="create_vehicle">Create Vehicle</string>
+    <string name="type">Type :</string>
+    <string name="brand">Brand :</string>
+    <string name="model">Model :</string>
+    <string name="year">Year :</string>
+    <string name="color">Color :</string>
+    <string name="license_plate">License Plate :</string>
+    <string name="select_start_date">Select Start Date</string>
+    <string name="select_due_date">Select Due Date</string>
+    <string name="search">Search</string>
+    <string name="employee">Employee</string>
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/CustomerDataLayout"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" >
+
+        <ListView
+            android:id="@+id/customerListView"
+            android:layout_above="@id/btnCreateCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnCreateCustomer"
+            android:text="@string/create_customer"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_above="@id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_alignParentBottom="true"
+            android:text="@string/employee_logout"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvNoCustomers"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:text="@string/no_customer_exist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/VehicleDataLayout"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" >
+
+        <ListView
+            android:id="@+id/vehicleListView"
+            android:layout_above="@id/btnCreateVehicle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnCreateVehicle"
+            android:text="@string/create_vehicle"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_above="@id/btnLogout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLogout1"
+            android:layout_alignParentBottom="true"
+            android:text="@string/employee_logout"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvNoVehicles"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:text="@string/no_vehicles_exist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ChoicesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnViewCustomers"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/view_customers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnViewVehicles"
+            android:layout_below="@+id/btnViewCustomers"
+            android:text="@string/view_vehicles"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSpecialLogout"
+            android:layout_below="@id/btnViewVehicles"
+            android:text="@string/employee_logout"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

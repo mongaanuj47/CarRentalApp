@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/vehicleImage"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_gallery"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <EditText
+        android:id="@+id/edtType"
+        android:hint="@string/enter_type"
+        android:textColor="@color/colorPrimary"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edtBrand"
+        android:hint="@string/enter_brand"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/colorPrimary"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edtModel"
+        android:hint="@string/enter_model"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edtYear"
+        android:hint="@string/enter_year"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:maxLength="4"
+        android:inputType="number"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edtColor"
+        android:hint="@string/enter_color"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edtLicensePlate"
+        android:hint="@string/enter_license_plate"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:singleLine="true"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnSaveDetails"
+        android:text="@string/btn_save"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnUpdateDetails"
+        android:visibility="gone"
+        android:text="@string/btn_update"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
